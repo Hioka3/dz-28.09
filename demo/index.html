@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <title>plague game</title>
+  </head>
+  <body>
+    <div class="score-box">
+      <div>
+        <b id="score">Score: 0</b>
+        <p>Latest score: <span id="latest"></span></p>
+      </div>
+      <div>
+        <b>Results</b>
+        <ol id="results"></ol>
+      </div>
+    </div>
+
+    <div class="game">
+      <div id="dino"></div>
+      <div id="cactus" class="moveCactus"></div>
+      <div id="krab" class="moveKrab"></div>
+    </div>
+
+    <div class="note">
+      <span class="space">Press space to jump</span>
+    </div>
+
+    <div class="container">
+      <button id="btn">Stop</button>
+    </div>
+    
+
+    <script src="main.js"></script>
+    
+    </button>
+  </body>
+</html>
